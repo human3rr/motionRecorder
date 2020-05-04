@@ -1,0 +1,18 @@
+Overview:
+motionRecorder is a C++ implementation of an algorithm for motion recording using OpenCV with a couple extra goodies.
+
+Features:
+Creates timestamped video recording indicating time of creation.
+Video contains timestamp that the frame was captured.
+Threaded so writing capture frames to disk does not interfere with continious capture.
+
+Dependencies:
+OpenCV
+Pthreads
+
+How to build:
+cd motionRecorder
+mkdir build
+cd build
+cmake ..
+make
